@@ -1,0 +1,2 @@
+# Child-Pipe-Process
+Write a program that creates three child processes and three pipes to communicate with each process. Each child process reads from different serial line and sends the characters read back to the parent process through a pipe. The parent process outputs all characters received on the console. A child terminates when two newline characters are received consecutively. The parent terminates after all three children have terminated. 
